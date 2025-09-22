@@ -1,6 +1,7 @@
 
-function mostrar(id) {
-    const secciones = document.querySelectorAll('.contenido');
-    secciones.forEach(sec => sec.style.display = 'none');
-    document.getElementById(id).style.display = 'block';
+function mostrar(seccion) {
+    document.getElementById('autoconciencia').style.display = 'none';
+    document.getElementById('regulacion').style.display = 'none';
+    document.getElementById('empatia').style.display = 'none';
+    document.getElementById(seccion).style.display = 'block';
 }
