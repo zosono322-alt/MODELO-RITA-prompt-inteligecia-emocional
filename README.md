@@ -1,0 +1,1 @@
+# MODELO-RITA-prompt-inteligecia-emocional
